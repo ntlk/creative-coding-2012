@@ -7,7 +7,23 @@
 	<meta name="keywords" content="" />
 	<meta name="author" content="Natalia Buckley" />
 	<title>{{ page.title }}</title>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="/assets/css/solarized-light.css" type="text/css" media="screen" charset="utf-8" />
 	
 </head>
-<body>
+<body class="{{ page.layout }}">
+	<div class="head">
+		<div class="container">
+			<header class="framed">
+				<h1>
+					<a href="/">
+						{{ page.title }}
+						{% if page.layout == 'post' %}
+							<span class="back">↩</a>
+						{% endif %}
+					</a>
+				</h1>
+			</header>
+		</div>
+	</div>

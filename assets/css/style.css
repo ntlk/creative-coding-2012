@@ -1,0 +1,329 @@
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    border: 0;
+}
+
+img, video, iframe, object {
+	max-width: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+    padding: 0; 
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0; 
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; 
+    cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; 
+    padding: 0; 
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto; 
+    vertical-align: top; 
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Main styles */
+
+body {
+	font-family: Times, Times New Roman, Georgia, Droid Serif, serif;
+	color: #444;
+	font-size: 1.1em;
+	line-height: 1.4;
+	-webkit-font-smoothing: subpixel;
+}
+
+h1, h2, h3 {
+	font-family: Montserrat, Gill Sans, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 2px solid #ddd;
+}
+
+a:hover {
+	border-bottom: 2px solid #7aa4db;
+}
+
+.framed a {
+	color: #7aa4db;
+	border-bottom: none;
+}
+
+.framed a:hover {
+	border-bottom: none;
+}
+
+.back {
+	color: #aaa;
+	font-size: 70%;
+	margin-left: 0.3em;
+}
+
+.head {
+	width: 100%;
+	padding: 2em 0;
+	/*background: #d0b27b;*/
+	color: #7aa4db;
+	overflow: hidden;
+	position: relative;
+}
+
+.cover {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: -4em;
+	z-index: -1;
+}
+
+.container {
+	max-width: 600px;
+	padding: 0 3em;
+	margin: 0 auto;
+}
+
+.framed {
+	border: 7px solid #7aa4db;
+	padding: 0.5em 2em 3em 2em;
+}
+
+.course_intro {
+	padding: 0 0 1.5em 0;
+	margin-bottom: 1.5em;
+	border-bottom: 7px solid #7aa4db;
+	font-family: Montserrat, Gill Sans, Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.session_number {
+	color: #888;
+	text-transform: uppercase;
+	font-size: 100%;
+	margin-bottom: 0.2em;
+}
+
+.session_title {
+	margin-top: 0px;
+}
+
+.summary {
+	margin-bottom: 2em;
+}
+
+.post .intro {
+	font-family: Montserrat, Gill Sans, Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+code {
+	font-family: Andale Mono, Menlo, monospace;
+	font-size: 80%;
+	line-height: 1.4;
+}
+
+pre {
+	padding: 1em;
+	/*background: #094351;*/
+	background: #f4f4f4;
+}
+
+.site_footer {
+	font-size: 80%;
+	padding: 1em 0;
+	border-top: 7px solid #7aa4db;
+}
+
+.cc_logo {
+	padding-right: 1em;
+}
+
+.license, .license_logo {
+	display: inline-block;
+}
+
+.license {
+	max-width: 80%;
+}

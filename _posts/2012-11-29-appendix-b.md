@@ -1,0 +1,38 @@
+---
+title: APIs
+number: Appendix B
+layout: post
+intro: Here you can find a list of useful APIs. Some of them may require authentication, other will only need it to use some of the available features. Read the documentation for more information.
+---
+
+* [MediaWiki](http://www.mediawiki.org/wiki/API)
+* [Freebase](http://www.freebase.com/docs/data)
+* [DBpedia](http://dbpedia.org/About)
+* [Google Maps](https://developers.google.com/maps/)
+* [Geonames](http://www.geonames.org)
+* [Pleiades Places](http://api.pleiades.stoa.org)
+* [LastFM](http://www.last.fm/api)
+* [Vimeo](http://vimeo.com/api)
+* [Flickr](http://www.flickr.com/services/api/)
+* [Twitter](https://dev.twitter.com/)
+* [Tumblr](http://www.tumblr.com/docs/en/api/v2)
+* [Cosm](https://cosm.com/docs/)
+* [Twilio](http://www.twilio.com/voice/api)
+* [Foursquare](https://developer.foursquare.com/)
+* [SoundCloud](http://developers.soundcloud.com/)
+* [YouTube](http://code.google.com/apis/youtube/overview.html)
+* [BBC](http://www.bbc.co.uk/programmes/developers#alternateserialisations)
+* [ViewChange](http://blog.viewchange.org/2010/05/entity-extraction-content-api-evaluation/)
+* [Social Actions](http://socialactions.com/)
+* [Wordnik](http://blog.wordnik.com/wordnik-api-has-gone-beta)
+* [Layar](http://layar.com/documentation/browser/)
+* [WolframAlpha](http://products.wolframalpha.com/api/)
+* [Instapaper](http://www.instapaper.com/api/full)
+* [NASA images](http://earthdata.nasa.gov/wiki/main/index.php/Global_Imagery_Browse_Services)
+* [LinkedIn](https://developer.linkedin.com)
+* [Hunch](http://hunch.com/developers/v1/)
+* [Netflix](http://developer.netflix.com)
+* [Instagram](http://instagram.com/developer/)
+* [BBC Nature](http://www.bbc.co.uk/nature/feedsanddata)
+
+* [A huge list of other APIs organised by category](http://www.programmableweb.com/apis/directory/1?sort=date)
