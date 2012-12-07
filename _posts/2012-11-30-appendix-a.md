@@ -1,8 +1,0 @@
----
-title: Appendix A
-number: Appendix A
-layout: post
-intro: Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum.
----
-
-Hi.
