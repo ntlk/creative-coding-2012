@@ -298,6 +298,10 @@ a:hover {
 	line-height: 1.5;
 }
 
+.post .intro em {
+	font-style: normal;
+}
+
 code {
 	font-family: Andale Mono, Menlo, monospace;
 	font-size: 80%;

@@ -73,6 +73,10 @@ what if youre into graphics? or the web?
 * [Gridset](https://gridsetapp.com/)
 	- online tool for designing grids for your sites
 
+## Hosting providers & domain name registrations
+
+* [34sp](http://www.34sp.com/)
+
 ## Other programming languages
 
 Ruby, Python and PHP are some of the more popular languages used for creating [dynamic websites][1], but you can do a lot more with them, so don't think of them as limited to generating pages.
