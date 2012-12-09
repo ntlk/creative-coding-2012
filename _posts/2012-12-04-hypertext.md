@@ -8,7 +8,7 @@ intro: <em>Hypertext is the underlying concept defining the structure of the Wor
 
 ## Slides
 
-You can download a [PDF version here](/assets/creative_coding_2012_session1_hypertext.pdf).
+You can download a [PDF version here](http://ntlk.github.com/creative-coding-2012/assets/creative_coding_2012_session1_hypertext.pdf).
 
 ## Mozilla X-Ray Goggles
 
@@ -16,7 +16,7 @@ The bookmarklet can be found [here](http://hackasaurus.org/en-US/goggles/). We w
 
 ## A selection of HTML tags
 
-I have used [Paul Robert Lloyd's Styleguide](http://paulrobertlloyd.com/about/styleguide/) as an example of common tags and what they are used for. The version prepared for this session can be found [here](/assets/styleguide.html).
+I have used [Paul Robert Lloyd's Styleguide](http://paulrobertlloyd.com/about/styleguide/) as an example of common tags and what they are used for. The version prepared for this session can be found [here](http://ntlk.github.com/creative-coding-2012/assets/styleguide.html).
 
 ## Documentation
 
