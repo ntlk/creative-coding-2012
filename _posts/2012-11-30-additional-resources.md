@@ -121,9 +121,9 @@ Ruby, Python and PHP are some of the more popular languages used for creating [d
 
 [1]: http://en.wikipedia.org/wiki/Website#Dynamic_website
 
-## Git
+<!-- ## Git
 
 Still reading? Amazing. Let me then introduce you to a tool that's perhaps a little tricky to grasp at first, but once you do you will wonder how did you manage to live a fulfilling life beforehand.
 
-Git (I know, I know, the name is *funny*) is a *version contro tool*.
+Git (I know, I know, the name is *funny*) is a *version contro tool*. -->
 
