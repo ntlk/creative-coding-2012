@@ -2,11 +2,9 @@
 title: Additional resources
 number: Appendix A
 layout: post
+published: true
 intro: A collection of useful resources that can help you along the way. 
 ---
-
-- putting stuff on the server
-- GitHub
 
 ## Table of contents 
 
@@ -63,6 +61,8 @@ intro: A collection of useful resources that can help you along the way.
 	- HTML, CSS, JavaScript and jQuery documentation
 * [HTML5 Doctor](https://html5doctor.com/)
 	- great reasurce on HTML5
+* [Dive into HTML5](http://diveintohtml5.info/)
+	- as above
 
 ## Getting help
 
@@ -77,6 +77,8 @@ intro: A collection of useful resources that can help you along the way.
 	- a collection of tutorials on HTML and CSS
 * [Mozilla Thimble](https://thimble.webmaker.org/en-US/projects)
 	- Thimble lets you learn some CSS and HTML by editing pages and seeing the effects immediately
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+	- an interactive JavaScript book
 * [Codeacademy](http://www.codecademy.com/)
 	- interactive code lessons in a variety of languages
 * [Coursera](https://www.coursera.org/)

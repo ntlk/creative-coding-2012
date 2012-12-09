@@ -1,9 +1,20 @@
 ---
 title: JavaScript and APIs
-number: Session 3
+number: Sessions 3 and 4
 layout: post
+published: false
 intro: Time to start building something exciting. During this session I will introduce you to JavaScript, concept of APIs and hopefully will get you forever hooked on fetching data off the wild corners of the web and doing something cool with it.
 ---
+
+## Table of contents
+
+1. [Learning some more in your own time](#learning_some_more_in_your_own_time)
+2. [Why are APIs awesome](#why_are_apis_awesome)
+3. [Debugging](#debugging)
+
+## Learning some more in your own time
+
+[CodeAcademy](http://www.codecademy.com/) has some good sets of exercises that can help you [practice JavaScript](http://www.codecademy.com/tracks/javascript-combined). You can do them in small chunks and save your progress.
 
 ## Why are APIs awesome
 
@@ -21,7 +32,9 @@ Things always go wrong: you forget to add a bracket, mistype a variable name, or
 
 ### Using the console
 
-You can print out value of variables, function results etc. into the JavaScript console so you can inspect them. To open up the console, go to the `View` menu, then ` Developer > JavaScript Console`.
+When your bugs aren't syntax bugs, but logic bugs tools like JS Hint won't be of much help. luckily there are other things you can do to figure out what went wrong. 
+
+For example, you can print out value of variables, function results etc. into the JavaScript console so you can inspect them. To open up the console, go to the `View` menu, then ` Developer > JavaScript Console`.
 
 You can then use `console.log(value)` in your code, like this:
 
