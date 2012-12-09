@@ -4,17 +4,24 @@ number: Appendix A
 layout: post
 intro: A collection of useful resources that can help you along the way. 
 ---
-what if youre into graphics? or the web?
 
-- getting some hosting
 - putting stuff on the server
-- getting domains
-- getting help
-- how to use documentation
 - GitHub
-- databases
-- frameworks
-- dynamic website software (Wordpress, Drupal, other cmses)
+
+## Table of contents 
+
+1. [Software](#software)
+2. [Tools](#tools)
+3. [Tools for dealing with APIs](#tools_for_dealing_with_apis)
+4. [Other useful libraries](#other_useful_libraries)
+5. [Documentation](#documentation)
+6. [Getting help](#getting_help)
+7. [Online learning resources](#online_learning_resources)
+8. [Fonts](#fonts)
+9. [Grids](#grids)
+10. [Hosting providers & domain name registrations](#hosting_providers__domain_name_registrations)
+11. [Tools](#tools)
+12. [Other programming languages](#other_programming_languages)
 
 ## Software
 
@@ -33,7 +40,22 @@ what if youre into graphics? or the web?
 	- tool for editing HTML, CSS and JavaScript; with live preview
 * [CodePen](http://codepen.io/)
 	- tool for showing off snippets of code and demoing things. Great source of goot tips and tricks
+* [Hurl](http://hurl.it/)
+	- tool for testing HTTP requests
 
+## Tools for dealing with APIs
+
+* [gmap.js](http://hpneo.github.com/gmaps/examples.html)
+	- a library that makes using Google Maps API easier
+
+## Other useful libraries
+
+* [Paper.js](http://paperjs.org/)
+	- a library for drawing with JavaScript
+* [Raphaël.js](http://raphaeljs.com/)
+	- another library for drawing with JavaScript
+* [Artisan.js](http://artisanjs.com/)
+	- and another one
 
 ## Documentation
 
@@ -41,6 +63,11 @@ what if youre into graphics? or the web?
 	- HTML, CSS, JavaScript and jQuery documentation
 * [HTML5 Doctor](https://html5doctor.com/)
 	- great reasurce on HTML5
+
+## Getting help
+
+* [StackOverflow](http://stackoverflow.com/)
+	- a Q&A site, where people are very helpful, and most likely all your questions have already been answered 
 
 ## Online learning resources
 
@@ -91,4 +118,10 @@ Ruby, Python and PHP are some of the more popular languages used for creating [d
 	- interactive Ruby tutorial
 
 [1]: http://en.wikipedia.org/wiki/Website#Dynamic_website
+
+## Git
+
+Still reading? Amazing. Let me then introduce you to a tool that's perhaps a little tricky to grasp at first, but once you do you will wonder how did you manage to live a fulfilling life beforehand.
+
+Git (I know, I know, the name is *funny*) is a *version contro tool*.
 

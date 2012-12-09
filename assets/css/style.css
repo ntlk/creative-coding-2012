@@ -269,12 +269,16 @@ a:hover {
 }
 
 .course_intro {
-	padding: 0 0 1.5em 0;
 	margin-bottom: 1.5em;
-	border-bottom: 7px solid #7aa4db;
 	font-family: Montserrat, Gill Sans, Helvetica, Arial, sans-serif;
 	font-size: 1.2em;
 	line-height: 1.5;
+}
+
+.after_course_intro {
+	padding: 0 0 1.5em 0;
+	margin-bottom: 1.5em;
+	border-bottom: 7px solid #7aa4db;
 }
 
 .session_number {
