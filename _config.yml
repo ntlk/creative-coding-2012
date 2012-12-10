@@ -2,7 +2,7 @@ safe:        false
 auto:        true
 server:      true
 server_port: 4000
-baseurl:    /
+baseurl:    /creative-coding-2012/
 url: http://localhost:4000
 
 source:      .
