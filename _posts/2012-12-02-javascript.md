@@ -42,7 +42,7 @@ Things always go wrong: you forget to add a bracket, mistype a variable name, or
 
 ### Using the console
 
-When your bugs aren't syntax bugs, but logic bugs tools like JS Hint won't be of much help. luckily there are other things you can do to figure out what went wrong.  
+When your bugs aren't syntax bugs, but logic bugs, tools like [JS Hint][3] won't be of much help. luckily there are other things you can do to figure out what went wrong.  
 
 For example, you can print out value of variables, function results etc. into the JavaScript console so you can inspect them. To open up the console, go to the `View` menu, then ` Developer > JavaScript Console`.
 
