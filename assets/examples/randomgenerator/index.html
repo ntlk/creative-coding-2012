@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+		<title>Bollocks</title>
+
+		<script>
+
+			$(document).ready(function(){
+				// my things
+				// Ever since .... I have been ... with .....
+				var beginning = "Ever since ";
+				var middle = " I have been ";
+				var last = " with ";
+				var end = ".";
+
+				var things_1 = ["my childhood", "my youth", "Thursday"];
+				var things_2 = ["fascinated", "outraged", "angry", "in love"];
+				var things_3 = ["the dusky evenings", "my mother's cat", "the neighbour's car"];
+
+
+				function random_number(array_name) {
+					var random = Math.floor( Math.random() * (array_name.length) );
+					return random;
+				}
+
+				function generate_a_sentence() {
+					var sentence = beginning 
+					+ things_1[random_number(things_1)] 
+					+ middle 
+					+ things_2[random_number(things_2)] 
+					+ last 
+					+ things_3[random_number(things_3)] 
+					+ end;
+					//console.log(sentence);
+					return sentence;
+				}
+
+				function change_text() {
+					// .html refer to the jQuery method
+					// http://api.jquery.com/html/
+
+					// this is what we call "a callback" - jQuery waits 
+					// for one thing to finish before starting another
+					$('#text').fadeOut('slow', function(){
+						$('#text').text( generate_a_sentence() ).fadeIn();
+					});
+				}
+
+				change_text();
+
+				$('#link').on('click', function(){
+					// stuff to do
+					change_text();
+				});
+
+				$('#first_array').on('submit', function(){
+					// stuff to do
+					var value = $('#first_input').val();
+					things_1.push(value);
+					console.log(value);
+					return false;
+				});
+
+			});
+
+		</script>
+
+		<style>
+			body {
+				background: lime;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a href="#" id="link">Give me some text</a>
+		<div id="text"></div>
+
+		<form id="first_array">
+			<label for="first_array">First array</label>
+			<input type="text" placeholder="your text" name="first_array" id="first_input" />
+			<input type="submit" value="Add it!" />
+		</form>
+	</body>
+
+</html>

@@ -12,6 +12,7 @@ intro: Time to start building something exciting. We'll make a simple project th
 1. [Learning some more in your own time](#learning_some_more_in_your_own_time)
 2. [Programs vs markup](#programs_vs_markup)
 3. [jQuery](#jquery)
+3. [My likes project](#my_likes_project)
 3. [artybollocks inspired project](#artybollocks_inspired_project)
 6. [Debugging](#debugging)
 7. [Syntax](#syntax)
@@ -32,9 +33,17 @@ If you're still unsure as to what is the difference between a programming langua
 
 [jQuery](http://jquery.com/) is a [library][7] that simplifies some of the common things people do with web pages and JavaScript (and fixes for you some of the inconsistencies resulting from browser bugs etc). It might be a little bit confusing to know which things you learn that are part of it, and which ones are vanilla JavaScript – that's okay. You'll get there in time. 
 
+Look up [jQuery documentation here](http://api.jquery.com/).
+
+## My likes project
+
+We wrote a quick project together that introduced the JavaScript syntax. Have a look at the [sample file we've created during the session](/creative-coding-2012/assets/examples/mylikes/index.html).
+
+Be sure to view code source rather than just see the result in the browser.
+
 ## artybollocks inspired project
 
-We're going to be making a little program inspired by [artybollocks generator](http://www.artybollocks.com/) - a random statement generator, so you can get familliar with the syntax before we move onto the next thing. We will be using words written by [David James Ross](http://www.davidjamesross.co.uk). I am not sure what the license is, but I hope the authors won't be mad that you are learning from their work :)
+We're going to be making a little program inspired by [artybollocks generator](http://www.artybollocks.com/) - a random statement generator, so you can get familliar with the syntax before we move onto the next thing. Have a look at the [sample file we've created together](/creative-coding-2012/assets/examples/randomgenerator/index.html).
 
 ## Debugging
 
@@ -109,6 +118,8 @@ For other useful debugging suggestions have a look through the [.net magazine tu
 ## Syntax
 
 [Comprehensive JavaScript syntax guide](http://en.wikipedia.org/wiki/JavaScript_syntax) can be found on Wikipedia, though you are already familiar with [DocHub](http://dochub.io/#javascript/) which might be more useful.
+
+jQuery has it's own set of rules and methods, which you can look up on the [project's documentation page](http://api.jquery.com/) if you are using it.
 
 
 
